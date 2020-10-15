@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import 'core-js/features/string/pad-start'; 
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,3 +16,6 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+
+// process.env.{변수 이름}
+// process.env.NODE_ENV
